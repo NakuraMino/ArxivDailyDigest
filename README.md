@@ -1,4 +1,4 @@
-# ArxivDailyDigest
+# Arxiv DeepSeek Daily Digest
 
 A Deepseek-powered agent designed to deliver daily email updates on newly uploaded papers to ArXiv that align with your specific research interests.
 
@@ -47,6 +47,6 @@ python main.py
 
 To add this as a cron job on your machine, you can `crontab -e` and add the following line:
 ```
-* 7 * * * /path/to/ArxivDailyDigest/src/daily_digest/run.sh
+0 7 * * * /path/to/ArxivDailyDigest/src/daily_digest/run.sh
 ```
 This will run this script at 7am every morning. Make sure to modify `run.sh` as appropriate.
